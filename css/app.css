@@ -1,0 +1,18 @@
+:root {
+    --body-bg: #024142;
+    --loader-1-bg: #3ef7fa;
+    --loader-1-shadow: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: var(--body-bg);
+}
